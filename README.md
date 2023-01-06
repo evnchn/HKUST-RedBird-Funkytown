@@ -1,3 +1,3 @@
 # HKUST Red Bird Funkytown
 
-[Demo upcoming]
+https://evnchn.github.io/HKUST-RedBird-Funkytown/
