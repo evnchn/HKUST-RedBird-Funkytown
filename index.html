@@ -30,6 +30,8 @@
       document.body.onclick = function() {
         document.querySelector("model-viewer#color").setAttribute("auto-rotate", "1");
         document.querySelector("#desc").innerHTML = "";
+		
+		if (document.querySelector("#desc").innerHTML) {
         loopify("perfect.mp3", ready); // https://stackoverflow.com/a/47477162
 
         function ready(err, loop) {
@@ -38,6 +40,7 @@
           }
           loop.play();
         }
+		}
       }
     </script>
   </body>
